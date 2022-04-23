@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Encrypt file</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta&effect=neon|outline|emboss|shadow-multiple|3d|3d-float">
+    </head>
+    <body>
+        <div class="navigation">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="encryption_form.html">Encryption</a></li>
+                <li><a href="decryption_form.html">Decryption</a></li>
+                <li><a href="generate_key_form.html">Generate Key</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="header">
+                <h1>File Encrypting</h1>
+            </div>
+            <div class="content">
+                <h2>Input File to Encrypt</h2>
+                <div class="form">
+                    <form action="encryption_form_proccess.php" method="post" enctype="multipart/form-data">
+                        <p>
+                            <label for="berkas">Pilih file : </label>
+                        </p>
+                        <p>
+                            <input type="file" name="berkas">
+                        </p>
+                        <p>
+                            <label for="kunci_public_rsa">Pilih file kunci public : </label>
+                        </p>
+                        <p>
+                            <input type="file" name="kunci_public_rsa" accept="text/plain">
+                        </p>
+                        <p>
+                            <input type="submit" name="upload" value="Upload">
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="waktu.js"></script>
+    </body>
+</html>

@@ -1,0 +1,2 @@
+setiap yang diinput harus akan diperiksa dulu
+buat function untuk periksa yang diinput sebelum di proses

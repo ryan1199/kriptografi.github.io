@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Allerta';
+}
+
+.navigation {
+    padding: 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.navigation li {
+    float: left;
+}
+  
+.navigation li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* unvisited link */
+.navigation li a:link {
+    background-color: #333;
+}
+  
+/* visited link */
+.navigation li a:visited {
+    background-color: #333;
+}
+  
+/* mouse over link */
+.navigation li a:hover {
+    background-color: #111;
+}
+  
+/* selected link */
+.navigation li a:active {
+    background-color: #999;
+}
+
+.background {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.background h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    font-size: 100px;
+}
+
+.header {
+    margin: 0%;
+    padding: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 14px 16px;
+}
+
+.content {
+    margin: 0px 0px 34px 0px;
+    padding: 0;
+    width: 100%;
+    box-shadow: 0px 0px 18px 5px #888888;
+    border: 0px solid transparent;
+}
+
+.content h2 {
+    margin: 0%;
+    padding: 14px 16px;
+    background-color: #333;
+    color: white;
+}
+
+.content h3 {
+    margin: 0%;
+    padding: 14px 16px;
+    background-color: #333;
+    color: white;
+}
+
+.content h4 {
+    margin: 0%;
+    padding: 14px 16px;
+    background-color: #333;
+    color: white;
+}
+/*
+.content p {
+    margin: 0%;
+    padding: 14px 16px;
+    background-color: white;
+    color: w#333;
+}
+*/
+
+.content ul {
+    margin: 0%;
+    padding: 1px 36px;
+    list-style-type: circle;
+    background-color: white;
+    color: w#333;
+}
+
+.content ul li p {
+    display: block;
+}
+
+.content ul li p span {
+    font-weight: bold;
+}
+
+.content .form {
+    margin: 0%;
+    padding: 1px 16px;
+}
+
+.content .form p {
+    display: block;
+}
+
+.content .form input[type=file] {
+    background-color: white;
+    color: #333;
+    border: 0px solid transparent;
+    width: 100%;
+    pointer-events: none;
+    font-family: 'Allerta';
+}
+
+.content .form input[type=file]::-webkit-file-upload-button {
+    background-color: #333;
+    color: white;
+    border: 0px solid transparent;
+    padding: 14px 0px;
+    width: 10%;
+    pointer-events: all;
+    font-family: 'Allerta';
+}
+
+.content .form input[type=file]::-webkit-file-upload-button:hover {
+    background-color: #111
+}
+
+.content .form input[type=file]::-webkit-file-upload-button:active {
+    background-color: #999
+}
+
+.content .form input[type=submit] {
+    background-color: #333;
+    color: white;
+    border: 0px solid transparent;
+    padding: 14px 0px;
+    width: 100%;
+    font-family: 'Allerta';
+}
+
+.content .form input[type=submit]:hover {
+    background-color: #111
+}
+
+.content .form input[type=submit]:active {
+    background-color: #999
+}
+
+.content .public_key {
+    padding: 0px 16px;
+}
+
+.content .private_key {
+    padding: 0px 16px;
+}
+
+.content .button_generate_key {
+    padding: 1px 16px 1px;
+    background-color: #333;
+    text-align: center;
+    color: white;
+}
+
+.content .button_generate_key:hover {
+    background-color: #111;
+}
+
+.content .button_generate_key:active {
+    background-color: #999;
+}
+
+.content .form input[type=number] {
+    background-color: white;
+    color: black;
+    border: 5px solid black;
+    padding: 7px 8px;
+    font-family: 'Allerta';
+    width: 100%;;
+}
+
+.content .form input[type=button] {
+    background-color: #333;
+    color: white;
+    border: 0px solid black;
+    padding: 14px 0px;
+    font-family: 'Allerta';
+    width: 100%;
+    margin: 0;
+}
+
+.content .form input[type=button]:hover {
+    background-color: #111;
+}
+
+.content .form input[type=button]:active {
+    background-color: #999;
+}
+
+.container .message {
+    margin: 0%;
+    padding: 14px 16px;
+    background-color: #333;
+    color: white;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Generate Key for RSA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta&effect=neon|outline|emboss|shadow-multiple|3d|3d-float">
+    </head>
+    <body>
+        <div class="navigation">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="encryption_form.html">Encryption</a></li>
+                <li><a href="decryption_form.html">Decryption</a></li>
+                <li><a href="generate_key_form.html">Generate Key</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="header">
+                <h1>Keys Generating</h1>
+            </div>
+            <div class="content">
+                <h2>Generate Key for RSA</h2>
+                <div class="form">
+                    <form name="key_form" method="post">
+                        <p>
+                            <label for="prime_p">Prime Number P : </label>
+                        </p>
+                        <p>
+                            <input id="prime_p" type="number" name="prime_p" readonly>
+                        </p>
+                        <p>
+                            <label for="prime_q">Prime Number Q : </label>
+                        </p>
+                        <p>
+                            <input id="prime_q" type="number" name="prime_q" readonly>
+                        </p>
+                        <p>
+                            <input id="e" type="number" name="e" readonly style="display: none;">
+                        </p>
+                        <p>
+                            <input id="d" type="number" name="d" readonly style="display: none;">
+                        </p>
+                        <p>
+                            <input id="n" type="number" name="n" readonly style="display: none;">
+                        </p>
+                        <p>
+                            <input type="button" value="Generate Random" onclick="generate_key()">
+                        </p>
+                        <p>
+                            <input class="button_key" formaction="key_generator.php" type="submit" value="Download Public Key" name="download_public_key_file">
+                        </p>
+                        <p>
+                            <input class="button_key" formaction="key_generator.php" type="submit" value="Download Private Key" name="download_private_key_file">
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="generate_key.js"></script>
+    </body>
+</html>
